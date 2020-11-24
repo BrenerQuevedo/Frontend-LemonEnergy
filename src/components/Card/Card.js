@@ -53,6 +53,7 @@ const Body = styled(PartialContainer)(
       > ${Body200} {
         min-height: 48px;
         max-width: 100%;
+        color: ${colors.text.light};
       }
     }
   `,
