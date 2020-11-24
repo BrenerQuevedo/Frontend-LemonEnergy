@@ -12,6 +12,13 @@ const StyledHeader = styled.div(
     padding-top: ${spacing(3)};
     margin-bottom: ${spacing(6)};
 
+    ${Overline100} {
+      font-size: 10px;
+      line-height: 16px;
+      letter-spacing: 0.2em;
+      margin-top: ${spacing(1)};
+    }
+
     svg {
       margin-right: ${spacing(1)};
       width: 26px;
