@@ -88,6 +88,7 @@ const Footer = styled(PartialContainer)(
 
       color: ${colors.text.caption};
     }
+    justify-content: flex-end;
 
     > *:not(:last-child) {
       margin-right: ${spacing(2)};
