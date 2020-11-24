@@ -22,8 +22,8 @@ const Image = styled.div(
 const Info = styled.div(
   ({ theme: { spacing } }) => css`
     ${Overline100} {
-      letter-spacing: 0.1rem;
       margin-left: ${spacing(1)};
+      line-height: 11px;
     }
   `,
 )
@@ -55,6 +55,7 @@ const Body = styled(PartialContainer)(
       ${Title200} {
         color: ${colors.text.title};
         margin-bottom: ${spacing(1)};
+        letter-spacing: inherit;
       }
 
       > ${Body200} {
