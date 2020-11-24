@@ -67,7 +67,8 @@
         "printWidth": 80,
         "semi": false,
         "singleQuote": true,
-        "trailingComma": "all"
+        "trailingComma": "all",
+        "endOfLine": "auto"
       }
     ],
     "react/jsx-props-no-spreading": "off",
