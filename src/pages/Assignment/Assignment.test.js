@@ -166,7 +166,9 @@ describe('Assignment', () => {
 
     window.location.assign('https://github.com/login52')
 
-    expect(window.location.assign).toHaveBeenCalledWith('https://github.com/login52')
+    expect(window.location.assign).toHaveBeenCalledWith(
+      'https://github.com/login52',
+    )
 
     window.confirm.mockRestore()
   })
